@@ -1,0 +1,16 @@
+.window-top__name {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.window-top__name {
+  font-size: 18px;
+  line-height: 21px;
+  color: #9ba0b9;
+}
+
+@media screen and (max-width: 1240px) {
+  .window-top__name {
+    font-size: 16px;
+  }
+}
