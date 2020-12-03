@@ -45,6 +45,9 @@ module.exports = {
       ]
     : [new MiniCssExtractPlugin({ filename: "bundle.min.css" })],
   resolve: {
+    alias: {
+      styles: path.resolve(__dirname, "src/styles"),
+    },
     modules: [path.resolve("./node_modules"), path.resolve("./src")],
     extensions: ["*", ".js", ".jsx"],
   },

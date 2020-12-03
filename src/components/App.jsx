@@ -1,15 +1,13 @@
-import React, { Component } from "react";
-
+import React from "react";
 import "../styles/App.css";
+import MainWindow from "./widget/MainWindow/MainWindow";
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <h1>My React App!</h1>
-      </div>
-    );
-  }
-}
+const App = () => {
+  return (
+    <div className="app">
+      <MainWindow />
+    </div>
+  );
+};
 
 export default App;
