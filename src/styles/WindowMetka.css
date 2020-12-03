@@ -1,0 +1,43 @@
+.window-top__name {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.window-top__name {
+  font-size: 18px;
+  line-height: 21px;
+  color: #9ba0b9;
+}
+
+@media screen and (max-width: 1240px) {
+  .window-top__name {
+    font-size: 16px;
+  }
+}
+
+.window-metka a {
+  margin-left: 1px;
+  margin-right: 1px;
+  text-decoration: none;
+  display: inline-block;
+  background: #f2f4fb;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #9ba0b9;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+@media screen and (max-width: 980px) {
+  .window-metka {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .window-metka {
+    margin-top: 15px;
+  }
+}

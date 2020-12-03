@@ -4,6 +4,7 @@ import styles from "styles/WindowTop.css";
 
 import WindowRating from "./WindowRating";
 import WindowAdd from "./WindowAdd";
+import WindowMetka from "./WindowMetka";
 
 const WindowTop = () => {
   return (
@@ -11,6 +12,7 @@ const WindowTop = () => {
       <Grid container spacing={2}>
         <WindowRating />
         <WindowAdd />
+        <WindowMetka />
       </Grid>
     </Container>
   );
