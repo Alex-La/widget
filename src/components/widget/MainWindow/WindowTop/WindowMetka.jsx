@@ -4,7 +4,7 @@ import styles from "styles/WindowMetka.css";
 
 const WindowMetka = () => {
   return (
-    <Grid item xs={12}>
+    <Grid item xs={12} sm={6} md={3}>
       <div className={styles["window-metka"]}>
         <p className={styles["window-top__name"]}>Метки</p>
         <a href="#">Все отзывы</a>

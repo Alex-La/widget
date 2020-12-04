@@ -5,6 +5,7 @@ import styles from "styles/WindowTop.css";
 import WindowRating from "./WindowRating";
 import WindowAdd from "./WindowAdd";
 import WindowMetka from "./WindowMetka";
+import WindowRew from "./WindowRew";
 
 const WindowTop = () => {
   return (
@@ -13,6 +14,7 @@ const WindowTop = () => {
         <WindowRating />
         <WindowAdd />
         <WindowMetka />
+        <WindowRew />
       </Grid>
     </Container>
   );

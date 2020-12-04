@@ -4,7 +4,7 @@ import styles from "styles/WindowRating.css";
 
 const WindowRating = () => {
   return (
-    <Grid item xs={6}>
+    <Grid item xs={6} sm={6} md={3}>
       <p className={styles["window-top__name"]}>Средний рейтинг</p>
       <div className={styles["window-rating__amount"]}>
         <img
