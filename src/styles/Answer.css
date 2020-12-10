@@ -1,0 +1,35 @@
+.review_answer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.review_answer__do {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.review_answer__do > span {
+  margin-right: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #1d213a;
+}
+
+.review_answer__mark {
+  display: flex;
+  align-items: center;
+}
+
+.review_answer__mark .like {
+  display: flex;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.review_answer__mark .dislike {
+  display: flex;
+  text-decoration: none;
+}
