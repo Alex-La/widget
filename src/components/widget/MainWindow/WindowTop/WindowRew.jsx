@@ -4,7 +4,7 @@ import styles from "styles/WindowRew.css";
 
 const WindowRew = () => {
   return (
-    <Grid item xs={12} sm={6} md={3}>
+    <Grid item xs={12} sm={6} md={3} container justify="flex-end">
       <div className={styles["window-rew"]}>
         <p className={styles["window-top__name"]}>Показать отзывы с оценкой:</p>
         <div className={styles["window-rew__line"]}>
