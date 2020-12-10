@@ -1,0 +1,65 @@
+.window_new__review {
+  display: flex;
+  align-items: center;
+}
+
+.window_new__review > p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #263238;
+  margin-left: 20px;
+}
+
+.form_window__metka > a {
+  display: inline-block;
+  background: #f2f4fb;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 16px;
+  color: #9ba0b9;
+  padding: 10px;
+  margin-bottom: 10px;
+  outline: none;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.form_window__metka a:hover {
+  background: #725bff;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.image_input {
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.image_input input {
+  display: none;
+}
+
+.image_input label {
+  background: #f2f4fb;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #9ba0b9;
+  display: flex;
+  align-items: center;
+  padding: 12px 14px;
+  outline: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.image_input .image_preview {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
+}
