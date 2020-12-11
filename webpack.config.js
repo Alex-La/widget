@@ -2,6 +2,7 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const isDevMode = "production" !== process.env.NODE_ENV;
+const webpack = require("webpack");
 
 module.exports = {
   entry: __dirname + "/src/index.js",
@@ -15,6 +16,19 @@ module.exports = {
   },
   module: {
     rules: [
+      {
+        test: /\.(eot|gif|otf|png|svg|ttf|woff)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              publicPath: (resourcePath, context) => {
+                return path.relative(path.dirname(resourcePath), context) + "/";
+              },
+            },
+          },
+        ],
+      },
       {
         test: /\.(js|jsx)$/,
         exclude: /node_modules/,
@@ -36,14 +50,17 @@ module.exports = {
       },
     ],
   },
-  plugins: isDevMode
-    ? [
-        new HtmlWebpackPlugin({
-          template: "./public/index.html",
-        }),
-        new MiniCssExtractPlugin({ filename: "bundle.min.css" }),
-      ]
-    : [new MiniCssExtractPlugin({ filename: "bundle.min.css" })],
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "./public/index.html",
+    }),
+    new MiniCssExtractPlugin({ filename: "bundle.min.css" }),
+    new webpack.ProvidePlugin({
+      $: "jquery",
+      jQuery: "jquery",
+      "window.jQuery": "jquery",
+    }),
+  ],
   resolve: {
     alias: {
       styles: path.resolve(__dirname, "src/styles"),
