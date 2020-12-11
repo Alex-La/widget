@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, TextField, Button } from "@material-ui/core";
-import styles from "styles/windowMain/WindowNew.css";
+import "styles/windowMain/WindowNew.css";
 
 const Form = () => {
   return (
@@ -32,14 +32,14 @@ const Form = () => {
             />
           </Grid>
           <Grid items xs={12}>
-            <div className={styles.form_window__metka}>
+            <div className="form_window__metka">
               <a href="#">#Все отзывы</a>
               <a href="#">#Акция 2 + 1 </a>
             </div>
           </Grid>
           <Grid items xs={12} sm={10} style={{ marginBottom: 10 }}>
             <div className="form-window__photo">
-              <div className={styles.image_input}>
+              <div className="image_input">
                 <input type="file" accept="image/*" id="imageInput" />
                 <label htmlFor="imageInput" className="image-button">
                   <img
@@ -49,7 +49,7 @@ const Form = () => {
                   />
                   Добавить фото
                 </label>
-                <img src="" className={styles.image_preview} />
+                <img src="" className="image_preview" />
               </div>
             </div>
           </Grid>

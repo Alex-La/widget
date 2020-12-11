@@ -7,8 +7,8 @@ import VersionOne from "./widget/VersionOne/VersionOne";
 const App = () => {
   return (
     <div className="app">
-      {/* <MainWindow /> */}
-      <VersionOne />
+      <MainWindow />
+      {/* <VersionOne /> */}
     </div>
   );
 };

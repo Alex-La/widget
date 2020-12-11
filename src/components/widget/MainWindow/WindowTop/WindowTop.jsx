@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Container, Grid } from "@material-ui/core";
-import styles from "styles/windowMain/WindowTop.css";
+import "styles/windowMain/WindowTop.css";
 
 import WindowRating from "./WindowRating";
 import WindowAdd from "./WindowAdd";
@@ -12,7 +12,7 @@ const WindowTop = () => {
   const [newRev, setNewRev] = useState(false);
 
   return (
-    <Container className={styles.window_top}>
+    <Container className="window_top">
       <Grid container spacing={2}>
         <WindowRating />
         <WindowAdd setNewRev={setNewRev} />
