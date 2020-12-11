@@ -6,8 +6,8 @@ import Carousel from "./Carousel";
 
 const VersionOne = () => {
   return (
-    <Grid className="widget_review_first">
-      <Grid className="widget_review__wrapper">
+    <Grid className="viget-review viget-review-first">
+      <Grid className="viget-review__wrapper">
         <h2>Отзыв о курсе “Будь собой”</h2>
         <Carousel />
       </Grid>

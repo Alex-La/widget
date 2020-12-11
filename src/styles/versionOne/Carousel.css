@@ -1,0 +1,235 @@
+.viget-review .owl-carousel .owl-dots {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  display: block !important;
+}
+
+.viget-review .owl-carousel .owl-nav {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 97%;
+  left: 50%;
+  top: 36%;
+  transform: translate(-50%, -50%);
+}
+
+.viget-review .owl-carousel .owl-prev {
+  background-image: url(http://marsip01.tech01.net.in/mpv/img/slider1-prev.svg) !important;
+  background-size: cover !important;
+  width: 50px;
+  height: 50px;
+}
+
+.viget-review .owl-carousel .owl-prev > span,
+.viget-review .owl-carousel .owl-next > span {
+  display: none;
+}
+.viget-review .owl-carousel .owl-next {
+  background-image: url(http://marsip01.tech01.net.in/mpv/img/slider1-next.svg) !important;
+  background-size: cover !important;
+  width: 50px;
+  height: 50px;
+}
+
+.viget-review .owl-carousel .owl-dots .owl-dot {
+  background: #d9ddea;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  margin: 0px 5px;
+  transition: all 0.3s;
+}
+
+.viget-review .owl-carousel .owl-dots .owl-dot.active {
+  background: #1d213a;
+  width: 22px;
+  height: 22px;
+  transition: all 0.3s;
+}
+
+.viget-review .owl-carousel.owl-drag .owl-item {
+  z-index: -1 !important;
+}
+
+.viget-review .owl-carousel.owl-drag .owl-item.center {
+  z-index: 999 !important;
+}
+
+.viget-review .owl-item > div {
+  cursor: pointer;
+  margin: 84px 0%;
+  transition: margin 0.4s ease;
+}
+
+.viget-review .owl-item.center > div {
+  cursor: auto;
+  margin: 84px -150px;
+  z-index: 999999 !important;
+}
+
+/**--------------------------------*/
+
+.viget-review .owl-item > div {
+  cursor: pointer;
+  margin: 84px 0%;
+  transition: margin 0.4s ease;
+}
+
+.viget-review .owl-item.center > div {
+  cursor: auto;
+  margin: 84px -150px;
+  z-index: 999999 !important;
+}
+
+.viget-review .viget-review__wrapper .viget-slide {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+}
+
+.viget-review .viget-review__wrapper .viget-slide__person {
+  position: absolute;
+  max-width: 60px;
+  max-height: 60px;
+  top: -6%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.viget-review .owl-item.center > div img {
+  max-width: 120px;
+  max-height: 120px;
+}
+
+.viget-review .viget-review__wrapper .viget-slide__block {
+  background: #ffffff;
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.12);
+  padding: 20px 20px 20px;
+}
+
+.viget-review .owl-item.center > div .viget-slide__block {
+  padding: 60px 20px 30px;
+}
+
+.viget-review .viget-review__wrapper .viget-slide__name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.viget-review .owl-item.center > div .viget-slide__name {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.viget-review .viget-review__wrapper .viget-slide__fitnes {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .viget-review .viget-review__wrapper .viget-slide__fitnes {
+    font-size: 8px;
+    line-height: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .viget-review .owl-item.center > div .viget-slide__fitnes {
+    font-size: 10px;
+    line-height: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .viget-review .owl-item.center > div .viget-slide__name {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .viget-review .viget-review__wrapper .viget-slide__name {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .viget-review .owl-item.center > div .viget-slide__block {
+    padding-top: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .viget-review .owl-item.center > div img {
+    max-width: 80px;
+    max-height: 80px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .viget-review .viget-review__wrapper .viget-slide__person {
+    max-width: 40px;
+    max-height: 40px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .viget-review .owl-item.center > div {
+    margin: 84px -100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .viget-review .owl-item.center > div {
+    margin: 84px -60px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .viget-review .owl-item.center > div {
+    margin: 84px 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .viget-review .owl-item > div {
+    margin: 84px -60px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .viget-review .owl-item > div {
+    margin: 84px 40px;
+  }
+}
+
+/**--------------------------------*/
+
+@media screen and (max-width: 768px) {
+  .viget-review .owl-carousel .owl-dots .owl-dot {
+    width: 13px;
+    height: 13px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .viget-review .owl-carousel .owl-dots .owl-dot.active {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .viget-review .owl-carousel .owl-dots {
+    position: relative;
+    transform: unset;
+    margin-top: -40px;
+    left: 0px;
+  }
+}

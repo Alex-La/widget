@@ -1,26 +1,38 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useState, useCallback } from "react";
+import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
-import "owl.carousel";
+import "owl.carousel/dist/assets/owl.theme.default.css";
+import "styles/versionOne/Carousel.css";
+
+import CarouselItem from "./CarouselItem";
 
 const Carousel = () => {
-  const owlRef = useRef(null);
+  const [width, setWidth] = useState(window.innerWidth);
 
-  useEffect(() => {
-    if (owlRef.current) {
-      $(".owl-carousel").owlCarousel();
-    }
+  const setInnerWidth = useCallback(() => {
+    setWidth(window.innerWidth);
   }, []);
 
+  useEffect(() => {
+    window.addEventListener("resize", setInnerWidth);
+    return () => window.removeEventListener("resize", setInnerWidth);
+  }, [setInnerWidth]);
+
   return (
-    <div className="owl-carousel" ref={owlRef}>
-      <div> Your Content </div>
-      <div> Your Content </div>
-      <div> Your Content </div>
-      <div> Your Content </div>
-      <div> Your Content </div>
-      <div> Your Content </div>
-      <div> Your Content </div>
-    </div>
+    <OwlCarousel
+      items={width < 500 ? 1 : width < 985 ? 2 : 3}
+      width={320}
+      loop
+      nav
+      dots
+      center
+    >
+      {Array(3)
+        .fill()
+        .map(() => (
+          <CarouselItem />
+        ))}
+    </OwlCarousel>
   );
 };
 

@@ -4,11 +4,11 @@ p {
   margin: 0;
 }
 
-.QJCaohknRLwYlofuPtEQc {
+.window_top {
   padding-top: 57px !important;
 }
 
-._344DZYE08je6Yd3xm9KvVu {
+.window-top__name {
   font-size: 18px;
   line-height: 21px;
   color: #9ba0b9;
@@ -16,80 +16,80 @@ p {
 }
 
 @media screen and (max-width: 1240px) {
-  ._344DZYE08je6Yd3xm9KvVu {
+  .window-top__name {
     font-size: 16px;
   }
 }
 
-._1O8z7XBRGz0upD_ORepGIC {
+.window-rating__amount {
   display: flex;
   align-items: center;
   margin-top: 10px;
 }
 
-._1O8z7XBRGz0upD_ORepGIC img {
+.window-rating__amount img {
   max-width: 120px;
   width: 100%;
 }
 
 @media screen and (max-width: 1240px) {
-  ._1O8z7XBRGz0upD_ORepGIC img {
+  .window-rating__amount img {
     max-width: 80px;
   }
 }
 
-._1zFWFBb9q49V_py5RokTWj {
+.window-rating__deg {
   margin-left: 25px;
 }
 
 @media screen and (max-width: 580px) {
-  ._1zFWFBb9q49V_py5RokTWj {
+  .window-rating__deg {
     margin-left: 10px;
   }
 }
 
-._1zFWFBb9q49V_py5RokTWj p {
+.window-rating__deg p {
   font-size: 16px;
   line-height: 16px;
   color: #696969;
   max-width: 110px;
 }
 
-._10ax3p88ZGV3a4Lw8goydN {
+.window-top__name {
   margin-top: 0;
   margin-bottom: 20px;
 }
 
-._10ax3p88ZGV3a4Lw8goydN {
+.window-top__name {
   font-size: 18px;
   line-height: 21px;
   color: #9ba0b9;
 }
 
 @media screen and (max-width: 1240px) {
-  ._10ax3p88ZGV3a4Lw8goydN {
+  .window-top__name {
     font-size: 16px;
   }
 }
 
-._3Nm_Kzk8Izk8mTXuGEnizQ {
+.window-top__name {
   margin-top: 0;
   margin-bottom: 20px;
 }
 
-._3Nm_Kzk8Izk8mTXuGEnizQ {
+.window-top__name {
   font-size: 18px;
   line-height: 21px;
   color: #9ba0b9;
 }
 
 @media screen and (max-width: 1240px) {
-  ._3Nm_Kzk8Izk8mTXuGEnizQ {
+  .window-top__name {
     font-size: 16px;
   }
 }
 
-._2OcJysjvEEdhfBhgvg-SQi a {
+.window-metka a {
   margin-left: 1px;
   margin-right: 1px;
   text-decoration: none;
@@ -105,31 +105,31 @@ p {
 }
 
 @media screen and (max-width: 980px) {
-  ._2OcJysjvEEdhfBhgvg-SQi {
+  .window-metka {
     margin-top: 30px;
   }
 }
 
 @media screen and (max-width: 580px) {
-  ._2OcJysjvEEdhfBhgvg-SQi {
+  .window-metka {
     margin-top: 15px;
   }
 }
 
 @media screen and (max-width: 580px) {
-  ._1OLtuB_6oDSv9h_ccG-Njp {
+  .window-rew {
     margin-top: 15px;
     width: 100%;
   }
 }
 
 @media screen and (max-width: 980px) {
-  ._1OLtuB_6oDSv9h_ccG-Njp {
+  .window-rew {
     margin-top: 30px;
   }
 }
 
-._7XaCZh23FOTx07qpyzL_c {
+.window-top__name {
   margin-top: 0;
   margin-bottom: 20px;
   font-size: 18px;
@@ -138,30 +138,30 @@ p {
 }
 
 @media screen and (max-width: 1240px) {
-  ._7XaCZh23FOTx07qpyzL_c {
+  .window-top__name {
     font-size: 16px;
   }
 }
 
-._3qWxJJwRStDsMaE4xAeXj5 {
+.window-rew__line {
   display: flex;
   justify-content: space-between;
   max-width: 220px;
 }
 
-._3qWxJJwRStDsMaE4xAeXj5 p {
+.window-rew__line p {
   margin: 0;
   font-size: 14px;
   line-height: 16px;
   color: #1d213a;
 }
 
-._1qjgpMD_Zl4mP7TI-T_eFr {
+.window_new__review {
   display: flex;
   align-items: center;
 }
 
-._1qjgpMD_Zl4mP7TI-T_eFr > p {
+.window_new__review > p {
   font-weight: 500;
   font-size: 15px;
   line-height: 18px;
@@ -169,7 +169,7 @@ p {
   margin-left: 20px;
 }
 
-._3A8DqUcEvoNUO4PNfI7IQd > a {
+.form_window__metka > a {
   display: inline-block;
   background: #f2f4fb;
   border-radius: 5px;
@@ -183,24 +183,24 @@ p {
   margin-right: 5px;
 }
 
-._3A8DqUcEvoNUO4PNfI7IQd a:hover {
+.form_window__metka a:hover {
   background: #725bff;
   color: #fff;
   transition: 0.3s;
 }
 
-._2S25ujwG--YQw2s104kx48 {
+.image_input {
   text-align: center;
   display: flex;
   align-items: flex-start;
   margin-top: 10px;
 }
 
-._2S25ujwG--YQw2s104kx48 input {
+.image_input input {
   display: none;
 }
 
-._2S25ujwG--YQw2s104kx48 label {
+.image_input label {
   background: #f2f4fb;
   border-radius: 5px;
   font-weight: 500;
@@ -215,24 +215,24 @@ p {
   cursor: pointer;
 }
 
-._2S25ujwG--YQw2s104kx48 ._3WZ4NxIWTiQYUPyn6snkIX {
+.image_input .image_preview {
   width: 50px;
   height: 50px;
   object-fit: cover;
   border-radius: 5px;
 }
 
-._3JE2Z2vII_rSZa8NJjDhh5 {
+.header_review__person {
   display: flex;
   align-items: center;
 }
 
-._1alSoTGEh2iLxZWfnbEl_j {
+.person_img {
   margin-right: 10px !important;
   vertical-align: middle;
 }
 
-._17bTupALheTsKTdMYjDgut > h5 {
+.person_name > h5 {
   margin: 0;
   font-weight: 500;
   font-size: 15px;
@@ -240,19 +240,19 @@ p {
   color: #1d213a;
 }
 
-._17bTupALheTsKTdMYjDgut > p {
+.person_name > p {
   font-size: 13px;
   line-height: 15px;
   color: #696969;
 }
 
-.avvf0lyx2CimPKgwt-XvS {
+.header_review__rating {
   margin-top: 20px;
   display: flex;
   align-items: center;
 }
 
-.avvf0lyx2CimPKgwt-XvS > span {
+.header_review__rating > span {
   font-size: 14px;
   line-height: 16px;
   color: #696969;
@@ -260,19 +260,19 @@ p {
   margin-left: 10px;
 }
 
-._3JfejazFjpUmzyitbbTe71 {
+.review_answer {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
 }
 
-._1n_oS8-T6UWgx1gjafEeVD {
+.review_answer__do {
   display: flex;
   align-items: center;
   text-decoration: none;
 }
 
-._1n_oS8-T6UWgx1gjafEeVD > span {
+.review_answer__do > span {
   margin-right: 5px;
   font-weight: 500;
   font-size: 16px;
@@ -280,21 +280,245 @@ p {
   color: #1d213a;
 }
 
-._2WYeURyFIhx-yhcotKZmsY {
+.review_answer__mark {
   display: flex;
   align-items: center;
 }
 
-._2WYeURyFIhx-yhcotKZmsY ._2oCfO2wSpq5ls3lfFRbt1G {
+.review_answer__mark .like {
   display: flex;
   margin-right: 15px;
   text-decoration: none;
 }
 
-._2WYeURyFIhx-yhcotKZmsY ._1G6tbhc4v3zvt42alUXZ61 {
+.review_answer__mark .dislike {
   display: flex;
   text-decoration: none;
 }
+
+.widget_review_first {
+  padding: 50px 0px;
+}
+
+.widget_review__wrapper {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 95%;
+}
+
+.widget_review__wrapper h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+  .widget_review__wrapper h2 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .widget_review__wrapper h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 986px) {
+  .widget_review__wrapper {
+    max-width: 100%;
+  }
+}
+
+/**
+ * Owl Carousel v2.3.4
+ * Copyright 2013-2018 David Deutsch
+ * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
+ */
+/*
+ *  Owl Carousel - Core
+ */
+.owl-carousel {
+  display: none;
+  width: 100%;
+  -webkit-tap-highlight-color: transparent;
+  /* position relative and z-index fix webkit rendering fonts issue */
+  position: relative;
+  z-index: 1; }
+  .owl-carousel .owl-stage {
+    position: relative;
+    -ms-touch-action: pan-Y;
+    touch-action: manipulation;
+    -moz-backface-visibility: hidden;
+    /* fix firefox animation glitch */ }
+  .owl-carousel .owl-stage:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0; }
+  .owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    /* fix for flashing background */
+    -webkit-transform: translate3d(0px, 0px, 0px); }
+  .owl-carousel .owl-wrapper,
+  .owl-carousel .owl-item {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0); }
+  .owl-carousel .owl-item {
+    position: relative;
+    min-height: 1px;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none; }
+  .owl-carousel .owl-item img {
+    display: block;
+    width: 100%; }
+  .owl-carousel .owl-nav.disabled,
+  .owl-carousel .owl-dots.disabled {
+    display: none; }
+  .owl-carousel .owl-nav .owl-prev,
+  .owl-carousel .owl-nav .owl-next,
+  .owl-carousel .owl-dot {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+  .owl-carousel .owl-nav button.owl-prev,
+  .owl-carousel .owl-nav button.owl-next,
+  .owl-carousel button.owl-dot {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0 !important;
+    font: inherit; }
+  .owl-carousel.owl-loaded {
+    display: block; }
+  .owl-carousel.owl-loading {
+    opacity: 0;
+    display: block; }
+  .owl-carousel.owl-hidden {
+    opacity: 0; }
+  .owl-carousel.owl-refresh .owl-item {
+    visibility: hidden; }
+  .owl-carousel.owl-drag .owl-item {
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+  .owl-carousel.owl-grab {
+    cursor: move;
+    cursor: grab; }
+  .owl-carousel.owl-rtl {
+    direction: rtl; }
+  .owl-carousel.owl-rtl .owl-item {
+    float: right; }
+
+/* No Js */
+.no-js .owl-carousel {
+  display: block; }
+
+/*
+ *  Owl Carousel - Animate Plugin
+ */
+.owl-carousel .animated {
+  animation-duration: 1000ms;
+  animation-fill-mode: both; }
+
+.owl-carousel .owl-animated-in {
+  z-index: 0; }
+
+.owl-carousel .owl-animated-out {
+  z-index: 1; }
+
+.owl-carousel .fadeOut {
+  animation-name: fadeOut; }
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+/*
+ * 	Owl Carousel - Auto Height Plugin
+ */
+.owl-height {
+  transition: height 500ms ease-in-out; }
+
+/*
+ * 	Owl Carousel - Lazy Load Plugin
+ */
+.owl-carousel .owl-item {
+  /**
+			This is introduced due to a bug in IE11 where lazy loading combined with autoheight plugin causes a wrong
+			calculation of the height of the owl-item that breaks page layouts
+		 */ }
+  .owl-carousel .owl-item .owl-lazy {
+    opacity: 0;
+    transition: opacity 400ms ease; }
+  .owl-carousel .owl-item .owl-lazy[src^=""], .owl-carousel .owl-item .owl-lazy:not([src]) {
+    max-height: 0; }
+  .owl-carousel .owl-item img.owl-lazy {
+    transform-style: preserve-3d; }
+
+/*
+ * 	Owl Carousel - Video Plugin
+ */
+.owl-carousel .owl-video-wrapper {
+  position: relative;
+  height: 100%;
+  background: #000; }
+
+.owl-carousel .owl-video-play-icon {
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  left: 50%;
+  top: 50%;
+  margin-left: -40px;
+  margin-top: -40px;
+  background: url(node_modules\owl.carousel\dist\assets\owl.video.play.png/) no-repeat;
+  cursor: pointer;
+  z-index: 1;
+  -webkit-backface-visibility: hidden;
+  transition: transform 100ms ease; }
+
+.owl-carousel .owl-video-play-icon:hover {
+  -ms-transform: scale(1.3, 1.3);
+      transform: scale(1.3, 1.3); }
+
+.owl-carousel .owl-video-playing .owl-video-tn,
+.owl-carousel .owl-video-playing .owl-video-play-icon {
+  display: none; }
+
+.owl-carousel .owl-video-tn {
+  opacity: 0;
+  height: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: opacity 400ms ease; }
+
+.owl-carousel .owl-video-frame {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  width: 100%; }
 
 
 /*# sourceMappingURL=bundle.min.css.map*/
