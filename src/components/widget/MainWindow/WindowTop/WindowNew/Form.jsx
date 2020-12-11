@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, TextField, Button } from "@material-ui/core";
-import styles from "styles/WindowNew.css";
+import styles from "styles/windowMain/WindowNew.css";
 
 const Form = () => {
   return (

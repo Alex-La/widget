@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, Button } from "@material-ui/core";
-import styles from "styles/WindowAdd.css";
+import styles from "styles/windowMain/WindowAdd.css";
 
 const WindowAdd = ({ setNewRev }) => {
   return (

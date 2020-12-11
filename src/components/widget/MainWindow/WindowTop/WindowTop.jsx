@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Container, Grid } from "@material-ui/core";
-import styles from "styles/WindowTop.css";
+import styles from "styles/windowMain/WindowTop.css";
 
 import WindowRating from "./WindowRating";
 import WindowAdd from "./WindowAdd";

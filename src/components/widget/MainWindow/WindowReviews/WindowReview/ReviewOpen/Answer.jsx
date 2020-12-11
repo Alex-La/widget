@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "styles/Answer.css";
+import styles from "styles/windowMain/Answer.css";
 
 const Answer = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
-import styles from "styles/WindowRating.css";
+import styles from "styles/windowMain/WindowRating.css";
 
 const WindowRating = () => {
   return (

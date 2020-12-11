@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
-import styles from "styles/WindowRew.css";
+import styles from "styles/windowMain/WindowRew.css";
 
 const WindowRew = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
-import styles from "styles/Author.css";
+import styles from "styles/windowMain/Author.css";
 
 const Author = () => {
   return (

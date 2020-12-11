@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid } from "@material-ui/core";
-import styles from "styles/WindowMetka.css";
+import styles from "styles/windowMain/WindowMetka.css";
 
 const WindowMetka = () => {
   return (
