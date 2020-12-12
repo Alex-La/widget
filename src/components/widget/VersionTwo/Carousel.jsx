@@ -1,8 +1,8 @@
-import React, { useEffect, useState, useCallback } from "react";
+import React, { useState, useCallback, useEffect } from "react";
+import "styles/versionTwo/Carousel.css";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
-import "styles/versionOne/Carousel.css";
 
 import CarouselItem from "./CarouselItem";
 
@@ -20,13 +20,13 @@ const Carousel = () => {
 
   return (
     <OwlCarousel
-      items={width < 500 ? 1 : width < 985 ? 2 : 3}
+      className="review-shop"
+      items={width < 768 ? 1 : width < 1200 ? 2 : 3}
       loop
-      nav
       dots
-      center
+      nav={false}
     >
-      {Array(3)
+      {Array(6)
         .fill()
         .map(() => (
           <CarouselItem />
