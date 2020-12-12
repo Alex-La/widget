@@ -1,0 +1,32 @@
+.lastvar-left .owl-carousel {
+  height: 100%;
+}
+
+.lastvar-left .owl-carousel .owl-nav {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  width: 97%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.lastvar-left .owl-carousel .owl-prev {
+  background-image: url(http://marsip01.tech01.net.in/mpv/img/slider1-prev.svg) !important;
+  background-size: cover !important;
+  width: 50px;
+  height: 50px;
+}
+
+.lastvar-left .owl-carousel .owl-next {
+  background-image: url(http://marsip01.tech01.net.in/mpv/img/slider1-next.svg) !important;
+  background-size: cover !important;
+  width: 50px;
+  height: 50px;
+}
+
+.lastvar-left .owl-carousel .owl-next > span,
+.lastvar-left .owl-carousel .owl-prev > span {
+  display: none;
+}

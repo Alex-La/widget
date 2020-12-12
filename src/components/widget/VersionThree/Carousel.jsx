@@ -27,7 +27,7 @@ const Carousel = () => {
       nav
       loop
     >
-      {Array(3)
+      {Array(6)
         .fill()
         .map(() => (
           <CarouselItem />
