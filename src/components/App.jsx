@@ -5,6 +5,7 @@ import MainWindow from "./widget/MainWindow/MainWindow";
 import VersionOne from "./widget/VersionOne/VersionOne";
 import VersionTwo from "./widget/VersionTwo/VersionTwo";
 import VersionThree from "./widget/VersionThree/VersionThree";
+import VersionFour from "./widget/VersionFour/VersionFour";
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
       {/* <MainWindow /> */}
       {/* <VersionOne /> */}
       {/*<VersionTwo /> */}
-      <VersionThree />
+      {/* <VersionThree /> */}
+      <VersionFour />
     </div>
   );
 };
