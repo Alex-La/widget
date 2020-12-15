@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Alex-La <lars6162@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": "12.18.4"
+  },
   "scripts": {
     "start": "cross-env NODE_ENV=production node index.js",
     "server": "nodemon index.js",
